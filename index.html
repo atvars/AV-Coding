@@ -9,6 +9,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/97890494a4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>AV-Coding</title>
   </head>
@@ -47,9 +51,68 @@
       </nav>
     </header>
 
-    <main>
-      
+    <main class="container-fluid">
+      <div class="row">
+        <section
+          class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4 centercontent"
+        >
+          <p>
+            Hello, my name is <strong>Atvars Velavs.</strong><br />
+            I'm Full stack web developer. I offer:
+          </p>
+          <ul>
+            <li class="nobullets">Web Design</li>
+            <li class="nobullets">UI/UX Design</li>
+            <li class="nobullets">Frontend Of Web Site</li>
+            <li class="nobullets">Backend Of Web Site</li>
+            <li class="nobullets">SEO</li>
+            <li class="nobullets">Web Page Maintenace</li>
+          </ul>
+        </section>
+
+        <section
+          class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4 centercontent"
+        >
+          <img
+            src="assets/images/Atvars.jpeg"
+            alt="Picture of me"
+            width="300px"
+            height="300px"
+          />
+        </section>
+
+        <section class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4">
+          <p class="centercontent">You can download my CV</p>
+          <div class="centercontent">
+            <a href="assets/pdf/A.Velavs CV.pdf" download
+              ><i class="fas fa-download"></i
+            ></a>
+          </div>
+          <div class="centercontent">
+            <p>You have a interesting idea? Get in touch.</p>
+            <a href="contact.html"
+              ><button type="button" class="btn btn-warning">
+                <i class="fas fa-envelope-square"></i> Contact Me
+              </button></a
+            >
+          </div>
+        </section>
+      </div>
     </main>
+    <footer>
+      <row>
+        <div class="container-fluid centercontent">
+          <p>This Website Is For Learning Purposes Only!</p>
+          <p>
+            Copyright &copy; <span id="footerDate"></span>
+            <!-- <script>
+              document.write(new Date().getFullYear());
+            </script> -->
+            Atvars Velavs All Rights Reserved
+          </p>
+        </div>
+      </row>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

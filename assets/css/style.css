@@ -1,0 +1,27 @@
+/* .main {
+  display: flex;
+}
+
+.me {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+p {
+} */
+
+img {
+  border-radius: 50%;
+}
+
+i.fa-download {
+  font-size: 2em;
+}
+
+.centercontent {
+  text-align: center;
+}
+
+.nobullets {
+  list-style-type: none;
+}
