@@ -18,10 +18,10 @@ function seeOffers() {
 }
 showOffers.addEventListener('click', seeOffers);
 
+// hide offers with button click
 function hideOffers() {
   infoOffers.style.display = 'none';
   showOffers.style.display = 'block';
   closeOffers.style.display = 'none';
 }
 closeOffers.addEventListener('click', hideOffers);
-
