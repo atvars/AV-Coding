@@ -54,26 +54,36 @@
     <main class="container-fluid">
       <div class="row">
         <section
-          class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4 centercontent"
+          class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4 centercontent firstSection"
         >
           <p>
             Hello, my name is <strong>Atvars Velavs.</strong><br />
-            I'm Full stack web developer. I offer:
+            I'm Full stack web developer.
           </p>
-          <ul>
-            <li class="nobullets">Web Design</li>
-            <li class="nobullets">UI/UX Design</li>
-            <li class="nobullets">Frontend Of Web Site</li>
-            <li class="nobullets">Backend Of Web Site</li>
-            <li class="nobullets">SEO</li>
-            <li class="nobullets">Web Page Maintenace</li>
-          </ul>
+          <button type="button" id="offerButton" class="btn btn-warning">
+            <i class="fas fa-arrow-down"></i>
+            Offers
+          </button>
+          <div id="offers">
+            <ul>
+              <li class="nobullets">Web Design</li>
+              <li class="nobullets">UI/UX Design</li>
+              <li class="nobullets">Frontend Of Web Site</li>
+              <li class="nobullets">Backend Of Web Site</li>
+              <li class="nobullets">SEO</li>
+              <li class="nobullets">Web Page Maintenace</li>
+            </ul>
+          </div>
+          <button type="button" id="closeOfferButton" class="btn btn-warning">
+            <i class="fas fa-arrow-up"></i> Offers
+          </button>
         </section>
 
         <section
           class="col-xs-12 .col-sm-12 col-md-6 col-lg-6 col-xl-4 centercontent"
         >
           <img
+            class="myImage"
             src="assets/images/Atvars.jpeg"
             alt="Picture of me"
             width="300px"
@@ -99,15 +109,20 @@
         </section>
       </div>
     </main>
+
+    <section class="container -fluid">
+      <div class="row">
+        
+      </div>
+    </section>
+
+
     <footer>
       <row>
         <div class="container-fluid centercontent">
           <p>This Website Is For Learning Purposes Only!</p>
           <p>
             Copyright &copy; <span id="footerDate"></span>
-            <!-- <script>
-              document.write(new Date().getFullYear());
-            </script> -->
             Atvars Velavs All Rights Reserved
           </p>
         </div>

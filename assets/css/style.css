@@ -1,16 +1,4 @@
-/* .main {
-  display: flex;
-}
-
-.me {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
-
-p {
-} */
-
-img {
+.myImage {
   border-radius: 50%;
 }
 
