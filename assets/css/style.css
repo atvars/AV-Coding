@@ -13,3 +13,121 @@ i.fa-download {
 .nobullets {
   list-style-type: none;
 }
+
+/* Navbar */
+
+.navbar {
+  background-color: goldenrod;
+}
+
+.navbar-brand {
+  color: black;
+  padding-right: 60%;
+}
+
+.nav-link {
+  color: black;
+}
+
+header {
+}
+
+/* main */
+
+main {
+  padding: 5%;
+  background-color: aliceblue;
+}
+
+/* projects */
+
+.projects {
+  padding: 5%;
+  background-color: aliceblue;
+}
+
+.project-title {
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+  background-color: goldenrod;
+  color: black;
+  padding: 20px;
+}
+
+/* ************************************************** About me page */
+
+.about-title {
+  font-size: 50px;
+  font-style: italic;
+  padding: 5%;
+}
+
+.aboutimg {
+  margin-bottom: 5%;
+}
+
+.my-p {
+  padding-bottom: 5%;
+}
+
+.about-me {
+  background-color: aliceblue;
+}
+
+/* ************************************************** contact page */
+
+.contact-title {
+  font-size: 50px;
+  font-style: italic;
+  padding: 5%;
+}
+
+.form {
+  padding: 5%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+  background-color: goldenrod;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+}
+
+.contact-me {
+  background-color: aliceblue;
+}
+
+.contact-nav {
+  padding: 0;
+  margin: 0;
+}
